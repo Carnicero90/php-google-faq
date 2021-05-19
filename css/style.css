@@ -1,0 +1,72 @@
+/* RESETS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 10px;
+    color: #5f6368;
+    border-bottom: 2px solid #5f6368;
+}
+.logo {
+    font-size: 22px;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-bottom: 15px;
+}
+.logo::before {
+    content: url('https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg');
+    height: 24px;
+   width: 74px;
+   vertical-align: middle;
+   position: relative;
+   top: 5px;
+   padding-right: 3px;
+}
+nav ul {
+    padding-left: 10px;
+    display: flex;
+}
+nav ul li {
+    margin-right: 30px;
+    padding-bottom: 6px;
+
+}
+nav ul li.active {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+
+}
+
+main {
+    max-width: 978px;
+    margin: auto;
+}
+h2 {
+    padding-top: 64px;
+}
+h3 {
+    padding-top: 52px;
+}
+p {
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+ol>li {
+    list-style-type: decimal;
+    padding-left: 12px;
+    margin-left: 1em;
+}
+ol ol>li {
+    list-style-type: lower-latin;
+}
